@@ -1,0 +1,49 @@
+name: frontend
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0-44.1.beta <3.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_hooks: ^0.18.5+1
+  flutter_svg: ^1.1.0
+  flutter_colorpicker: ^1.0.3
+
+dev_dependencies:
+  bloc: ^8.1.0
+  equatable: ^2.0.3
+  dio: ^4.0.6
+  flutter_bloc: ^8.0.1
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  http: ^0.13.4
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: montserrat/Montserrat-Regular.ttf
+          weight: 400
+        - asset: montserrat/Montserrat-Black.ttf
+          weight: 700
+        - asset: montserrat/Montserrat-Bold.ttf
+          weight: 500
+        - asset: montserrat/Montserrat-Medium.ttf
+          weight: 300
+        # - asset: montserrat/Montserrat-SemiBold.ttf
+        - asset: montserrat/Montserrat-Thin.ttf
+          weight: 200
